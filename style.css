@@ -1,0 +1,94 @@
+html {
+	position: relative;
+}
+body {
+	margin-bottom: 100px;
+	margin-top: 30px;
+
+}
+section {
+	min-height: 500px;
+}
+
+.navbar-header a {
+	font-family: 'Permanent Marker', cursive;
+}
+
+.jumbotron h1 {
+	font-family: 'Permanent Marker', cursive;
+	color: white;
+}
+.jumbotron p, h4 {
+	color: white;
+}
+.jumbotron{
+  position: relative;
+  z-index: -1;
+  min-height: 300px;
+  padding-top: 200px;
+  background-color: black;
+}
+
+#video-background { 
+  position: absolute;
+  height: auto;
+  width: auto;
+  min-height: 200%;
+  min-width: 100%;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate3d(-50%, -50%, 0);
+  transform: translate3d(-50%, -50%, 0);
+  z-index: -100;
+  overflow: hidden;
+}
+.link {
+	text-align: center;
+	min-height: 170px;
+}
+.link a {
+	margin: 5px;
+}
+.jadwal {
+	background-color: white;
+	text-align: center;
+}
+.jadwal h3 {
+	padding: 5px;
+}
+hr {
+	width: 250px;
+	border-top: 3px solid #999;
+}
+.video	{
+	background-color: #eee;
+	}
+.lagu	{
+	background-color: white;
+}
+.lokasi	{
+	background-color: #eee;
+	}
+
+footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 100px;
+	background-color: #333;
+	padding-top: 40px;
+}
+footer p {
+	color: #aaa;
+	font-size: 1em;
+}
+footer p i {
+	color: salmon;
+}
+
+
+
+
+
+
+
