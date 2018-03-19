@@ -13,12 +13,16 @@ $('html,body').animate({
 $(window).scroll(function(){
 	var wscroll = $(this).scrollTop();
 	$('.jumbotron h1').css({
-		'transform' : 'translate(0px,'+ wscroll/2 +'%)'
+		'transform' : 'translate(0px,'+ wscroll/4 +'%)'
 	});
 $('.jumbotron p').css({
-		'transform' : 'translate( 0px,'+ wscroll/4 +'%)'
+		'transform' : 'translate( 0px,'+ wscroll/8 +'%)'
 	});
 $('.jumbotron h4').css({
-		'transform' : 'translate( 0px, '+ wscroll/4 +'%)'
+		'transform' : 'translate( 0px, '+ wscroll +'%)'
 	});
+$('.link a').css({
+		'transform' : 'translate( 0px, '+ wscroll/2 +'%)'
+	});
+
 });
