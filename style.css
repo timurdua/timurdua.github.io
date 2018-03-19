@@ -16,10 +16,12 @@ section {
 
 .jumbotron h1 {
 	font-family: 'Permanent Marker', cursive;
-	color: white;
+	color: #eaeaea;
+	text-shadow: 1px 1px 10px rgba(0,0,0,0.5);
 }
 .jumbotron p, h4 {
-	color: white;
+	color: #eaeaea;
+	text-shadow: 1px 1px 10px rgba(0,0,0,0.5);
 }
 .jumbotron{
   position: relative;
@@ -44,7 +46,7 @@ section {
 }
 .link {
 	text-align: center;
-	min-height: 170px;
+	min-height: 250px;
 }
 .link a {
 	margin: 5px;
@@ -69,7 +71,6 @@ hr {
 .lokasi	{
 	background-color: #eee;
 	}
-
 footer {
 	position: absolute;
 	bottom: 0;
