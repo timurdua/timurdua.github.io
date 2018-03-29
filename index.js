@@ -11,47 +11,30 @@ $('html,body').animate({
 
 // parallax
 $(window).scroll(function(){
-	var wscroll = $(this).scrollTop();
-<<<<<<< HEAD
+	var wScroll = $(this).scrollTop();
 	// jumbotron
 	$('.jumbotron h1').css({
-		'transform' : 'translate(0px,'+ wscroll/2 +'%)'
+		'transform' : 'translate(0px,'+ wScroll/2 +'%)'
 	});
 	$('.jumbotron p').css({
-		'transform' : 'translate( 0px,'+ wscroll/4 +'%)'
+		'transform' : 'translate( 0px,'+ wScroll/4 +'%)'
 	});
 	$('.jumbotron h4').css({
-		'transform' : 'translate( 0px, '+ wscroll*1.5 +'%)'
+		'transform' : 'translate( 0px, '+ wScroll*1.5 +'%)'
 	});
 	$('.jumbotron a').css({
-		'transform' : 'translate( 0px, '+ wscroll +'%)'
+		'transform' : 'translate( 0px, '+ wScroll*1.2 +'%)'
 	});
-	// video
-	if(wscroll > $('.video').offset().top - 300) {
-		$('.video .thumbnail').each(function()) {
-			setTimeout(function() {
-
-			}, 2000)
-		}
-		// $('.video .thumbnail').addClass('muncul');
-	}
-
-
-
-
-=======
 	$('.jumbotron h1').css({
-		'transform' : 'translate(0px,'+ wscroll/4 +'%)'
+		'opacity' : ' '+ 1 - (wScroll / 400) +''
 	});
-$('.jumbotron p').css({
-		'transform' : 'translate( 0px,'+ wscroll/8 +'%)'
+	$('.jumbotron p').css({
+		'opacity' : ' '+ 1 - (wScroll / 400) +''
 	});
-$('.jumbotron h4').css({
-		'transform' : 'translate( 0px, '+ wscroll +'%)'
+	$('.jumbotron h4').css({
+		'opacity' : ' '+ 1 - (wScroll / 400) +''
 	});
-$('.link a').css({
-		'transform' : 'translate( 0px, '+ wscroll/2 +'%)'
+	$('.jumbotron a').css({
+		'opacity' : ' '+ 1 - (wScroll / 400) +''
 	});
->>>>>>> eed06365c5a199e055293d65d50925a730115d84
-
 });

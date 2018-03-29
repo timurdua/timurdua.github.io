@@ -14,7 +14,7 @@ section {
 	background-image: url('yes.jpg');
 	background-attachment: fixed;
 	background-size: cover;
-	background-position: 0 -100px;
+	background-position: 0 -50px;
 	overflow: hidden;
 }
 .navbar-header a {
@@ -24,48 +24,22 @@ section {
 .jumbotron h1, h4{
 	font-family: 'Permanent Marker', cursive;
 	color: #eaeaea;
-<<<<<<< HEAD
 	text-shadow: 5px 1px 20px rgba(0,0,0,0.5);
 }
+
 .jumbotron p {
 	color: #eaeaea;
 	text-shadow: 5px 1px 20px rgba(0,0,0,0.5);
-=======
 	text-shadow: 1px 1px 10px rgba(0,0,0,0.5);
 }
-.jumbotron p, h4 {
-	color: #eaeaea;
-	text-shadow: 1px 1px 10px rgba(0,0,0,0.5);
->>>>>>> eed06365c5a199e055293d65d50925a730115d84
-}
-.jumbotron{
-  min-height: 700px;
+
+.jumbotron {
+  min-height: 750px;
   padding-top: 200px;
   background-color: black;
 }
 
-<<<<<<< HEAD
 .jumbotron a {
-=======
-#video-background { 
-  position: absolute;
-  height: auto;
-  width: auto;
-  min-height: 200%;
-  min-width: 100%;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate3d(-50%, -50%, 0);
-  transform: translate3d(-50%, -50%, 0);
-  z-index: -100;
-  overflow: hidden;
-}
-.link {
-	text-align: center;
-	min-height: 250px;
-}
-.link a {
->>>>>>> eed06365c5a199e055293d65d50925a730115d84
 	margin: 5px;
 }
 .jadwal {
@@ -82,22 +56,15 @@ hr {
 .video	{
 	background-color: #eee;
 	}
-.video .thumbnail {
-	opacity: 0;
-	transform: translate(0, 40px);
-	transition: .7s;
-}
 
-.video .thumbnail.muncul {
-	opacity: 1;
-	transform: translate(0, 0);
-}
+
 .lagu	{
 	background-color: white;
 }
 .lokasi	{
 	background-color: #eee;
 	}
+
 .iframe-container{
     position: relative;
     width: 100%;
