@@ -25,7 +25,7 @@ section {
 	font-family: 'Permanent Marker', cursive;
 	color: #eaeaea;
 	text-shadow: 5px 1px 20px rgba(0,0,0,0.5);
-	margin: 10px;
+	margin-bottom: 50px;
 }
 
 .jumbotron p {
@@ -40,8 +40,8 @@ section {
   background-color: black;
 }
 
-.jumbotron a {
-	margin-top: 50px;
+.jumbotron .container a {
+	margin-top: 10px;
 	margin-left: 5px;
 	margin-right: 5px;
 }
