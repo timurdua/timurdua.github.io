@@ -10,28 +10,43 @@ section {
 	min-height: 500px;
 }
 
+.jumbotron {
+	background-image: url('yes.jpg');
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: 0 -100px;
+	overflow: hidden;
+}
 .navbar-header a {
 	font-family: 'Permanent Marker', cursive;
 }
 
-.jumbotron h1 {
+.jumbotron h1, h4{
 	font-family: 'Permanent Marker', cursive;
 	color: #eaeaea;
-	margin: 20px;
+<<<<<<< HEAD
+	text-shadow: 5px 1px 20px rgba(0,0,0,0.5);
+}
+.jumbotron p {
+	color: #eaeaea;
+	text-shadow: 5px 1px 20px rgba(0,0,0,0.5);
+=======
 	text-shadow: 1px 1px 10px rgba(0,0,0,0.5);
 }
 .jumbotron p, h4 {
 	color: #eaeaea;
 	text-shadow: 1px 1px 10px rgba(0,0,0,0.5);
+>>>>>>> eed06365c5a199e055293d65d50925a730115d84
 }
 .jumbotron{
-  position: relative;
-  z-index: -1;
-  min-height: 300px;
+  min-height: 700px;
   padding-top: 200px;
   background-color: black;
 }
 
+<<<<<<< HEAD
+.jumbotron a {
+=======
 #video-background { 
   position: absolute;
   height: auto;
@@ -50,6 +65,7 @@ section {
 	min-height: 250px;
 }
 .link a {
+>>>>>>> eed06365c5a199e055293d65d50925a730115d84
 	margin: 5px;
 }
 .jadwal {
@@ -66,12 +82,39 @@ hr {
 .video	{
 	background-color: #eee;
 	}
+.video .thumbnail {
+	opacity: 0;
+	transform: translate(0, 40px);
+	transition: .7s;
+}
+
+.video .thumbnail.muncul {
+	opacity: 1;
+	transform: translate(0, 0);
+}
 .lagu	{
 	background-color: white;
 }
 .lokasi	{
 	background-color: #eee;
 	}
+.iframe-container{
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%; /* Ratio 16:9 ( 100%/16*9 = 56.25% ) */
+}
+.iframe-container > *{
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
 
 footer {
 	position: absolute;
